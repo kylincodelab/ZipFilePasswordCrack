@@ -36,7 +36,7 @@ def main():
 			crackpassword=linepassword.split()[0]
 
 			CrackResult=ZipCrackFuc(ZipFileName,crackpassword)
-			# CrackResult=True
+			# If Ret True and then break
 			if CrackResult == True:
 				print "[+] "+"Crack Success!"+" PassWord: "+crackpassword
 				break
